@@ -1,0 +1,24 @@
+Introduction
+============
+
+It's a jquery plugin that you can use it when you want to use zoomIn effect on images
+
+Installation
+============
+
+You have to include jquery-1.4.2.min.js first and jquery.zoomImg.js before using it
+
+USAGE
+=====
+
+you MUST make sure that all selected images must be loaded before using it!!
+
+Use $(SELECTOR).zoomImg('afterWidth','afterHeight') and the plugin will resize the images to afterWidth and afterHeight.
+You ususally set smaller afterWidth and afterHeight compared with the originals.
+In this way, when users click on the resized images, the 'scene' div will show up to cover all the background and put your original image inside the div called 'canvas'.
+
+Snap
+====
+![img](http://eragonj.hax4.in/wp-content/uploads/2010/08/demo1.png)
+![img](http://eragonj.hax4.in/wp-content/uploads/2010/08/demo2.png)
+![img](http://eragonj.hax4.in/wp-content/uploads/2010/08/demo3.png)
